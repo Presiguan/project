@@ -7,7 +7,11 @@ function Navbar() {
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div style={{ justifyContent: "space-between" }} className="container">
           <a
-            style={{ font: "Arial", fontSize: "120%", fontWeight: "bolder" }}
+            style={{
+              font: "Arial",
+              fontSize: "120%",
+              fontWeight: "bolder",
+            }}
             className="navbar-brand"
             href="/"
           >
@@ -26,8 +30,7 @@ function Navbar() {
           </button>
           <div
             style={{
-              alignItem: "center",
-              padding: "0px 0px 0px 40px",
+              alignItem: "right",
             }}
             className="collapse navbar-collapse justify-content-center"
             id="navbarNav"

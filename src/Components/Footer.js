@@ -177,7 +177,7 @@ const Footer = () => {
                 padding: "0px 0px 0px 20px",
                 justifyContent: "space-between",
               }}
-              className="col"
+              className="col col-3"
             >
               <FaGithub /> <FaFacebook /> <FaDribbble /> <FaTwitter />
               <FaGoogle />
