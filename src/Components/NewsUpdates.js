@@ -11,13 +11,32 @@ function NewsUpdates() {
           <div className="col">
             <div className="card">
               <img src={BRT} className="card-img-top p-3" alt="..." />
-              <p>BRT fares revert 100 &#37; to former rate</p>
+              <p
+                style={{
+                  font: "Arial",
+                  fontSize: "20px",
+                  fontWeight: "bold",
+                  color: "gray",
+                }}
+              >
+                BRT fares revert 100<br></br>percent to former <br></br>rate
+              </p>
             </div>
           </div>
           <div className="col">
             <div className="card">
               <img src={Bus} className="card-img-top p-3" alt="..." />
-              <p>BRT fares revert 100 &#37; to former rate</p>
+              <p
+                style={{
+                  font: "Arial",
+                  fontSize: "20px",
+                  fontWeight: "bold",
+                  color: "gray",
+                }}
+              >
+                Lagos launches 500 <br></br>First and Last Mile buses <br></br>
+                as alternative to Okada
+              </p>
             </div>
           </div>
         </div>

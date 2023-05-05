@@ -1,0 +1,13 @@
+.navbar a {
+  color: #037b9f;
+}
+.navbar-nav li:hover a {
+  text-decoration: none;
+  color: black;
+  background-color: #037b9f;
+}
+
+.btn-outline-success:hover {
+  background-color: #037b9f;
+  color: #fff;
+}

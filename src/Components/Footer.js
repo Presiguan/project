@@ -14,8 +14,14 @@ const Footer = () => {
       <div className="container my-5">
         <div className="row">
           <div className="col-3 my-sm-3">
-            <h3>EasyRide</h3>
-            <p>Let's help you get to your destination with ease.</p>
+            <h3
+              style={{ font: "Arial", fontSize: "120%", fontWeight: "bolder" }}
+            >
+              EasyRide
+            </h3>
+            <p>
+              Let's help you get to your destination <br></br>with ease.
+            </p>
           </div>
           <div className="col my-sm-3">
             <ul className="List">
@@ -161,9 +167,18 @@ const Footer = () => {
         <div className="justify-content-between">
           <div className="row ">
             <div className="col">
-              <p>&copy; 2023, Untitled UI. All Rights Reserved.</p>
+              <p className="copyright">
+                &copy; 2023, Untitled UI. All Rights Reserved.
+              </p>
             </div>
-            <div className="col">
+            <div
+              style={{
+                color: "rgb(196, 195, 195)",
+                padding: "0px 0px 0px 20px",
+                justifyContent: "space-between",
+              }}
+              className="col"
+            >
               <FaGithub /> <FaFacebook /> <FaDribbble /> <FaTwitter />
               <FaGoogle />
             </div>
